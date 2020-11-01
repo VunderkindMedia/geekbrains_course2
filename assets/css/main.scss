@@ -231,6 +231,11 @@ nav {
   width: 560px;
   padding-top: 26px;
   box-sizing: border-box;
+  text-decoration: none;
+  &:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: .3s;
+  }
 
   & > * {
     display: inline-block;
@@ -423,6 +428,7 @@ nav {
 .subscribes {
   height: 438px;
   background: url("../images/subcribes_image.png") no-repeat;
+  background-size: 100%;
 
   &__avatar {
     width: 83px;

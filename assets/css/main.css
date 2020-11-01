@@ -173,7 +173,11 @@ header .container {
 .offer {
   width: 560px;
   padding-top: 26px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  text-decoration: none; }
+  .offer:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: .3s; }
   .offer > * {
     display: inline-block; }
   .offer__label {
@@ -321,7 +325,8 @@ header .container {
 
 .subscribes {
   height: 438px;
-  background: url("../images/subcribes_image.png") no-repeat; }
+  background: url("../images/subcribes_image.png") no-repeat;
+  background-size: 100%; }
   .subscribes__avatar {
     width: 83px;
     height: 83px;
