@@ -10,48 +10,47 @@
     <title>Brand Shop Online</title>
 </head>
 <body>
-
     <header>
-        <div class="container">
-            <div class="logo">
-                <img src="assets/images/logo.png" alt="Logo" class="logo__image">
-                <a href="#" class="logo__title">
-                    BRAN<span class="red-charachters">D</span>
-                </a>
+    <div class="container">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Logo" class="logo__image">
+            <a href="#" class="logo__title">
+                BRAN<span class="red-charachters">D</span>
+            </a>
 
-            </div>
-            <div class="search">
-                <a href='#' class="search__category search__btn">
-                    Browse
-                    <i class="fas fa-caret-down"></i>
-                </a>
-                <input type="text" class="search__input" placeholder="Search for Item...">
-                <div class="search__btn">
-                    <i class="fas fa-search"></i>
-                </div>
-
-            </div>
-            <div class="header_menu">
-                <i class="fal fa-shopping-cart"></i>
-                <a href='#' class="header_menu__btn">
-                    My Account
-                    <i class="fas fa-caret-down"></i>
-                </a>
-            </div>
         </div>
-    </header>
+        <div class="search">
+            <a href='#' class="search__category search__btn">
+                Browse
+                <i class="fas fa-caret-down"></i>
+            </a>
+            <input type="text" class="search__input" placeholder="Search for Item...">
+            <div class="search__btn">
+                <i class="fas fa-search"></i>
+            </div>
+
+        </div>
+        <div class="header_menu">
+            <i class="fal fa-shopping-cart"></i>
+            <a href='#' class="header_menu__btn">
+                My Account
+                <i class="fas fa-caret-down"></i>
+            </a>
+        </div>
+    </div>
+</header>
     <nav class="container">
         <ul class="main_menu">
-            <a href=""><li>HOME</li></a>
-            <a href=""><li>MAN</li></a>
-            <a href=""><li>WOMAN</li></a>
-            <a href=""><li>KIDS</li></a>
-            <a href=""><li>ACCOSERIESE</li></a>
-            <a href=""><li>FEATURED</li></a>
-            <a href=""><li>HOT DEALS</li></a>
+            <li><a href="">HOME</a></li>
+            <li><a href="">MAN</a></li>
+            <li><a href="">WOMAN</a></li>
+            <li><a href="">KIDS</a></li>
+            <li><a href="">ACCOSERIESE</a></li>
+            <li><a href="">FEATURED</a></li>
+            <li><a href="">HOT DEALS</a></li>
         </ul>
     </nav>
-    <section>
+    <main>
         <div class="promo">
             <div class="container">
                 <div class="title">
@@ -99,7 +98,7 @@
                 <div class="catalog__items">
                     <a class="catalog__item" href="#">
                         <img src="assets/images/cat_image1.png" alt="Image 1" class="catalog__item-image">
-                        <div class="catalog__item-title">Mango  People  T-shirt</div>
+                        <h2 class="catalog__item-title">Mango  People  T-shirt</h2>
                         <div class="catalog__item-price red-charachters">$52.00</div>
                         <div class="catalog__dark-placeholder">
                             <div class="catalog__cart-btn">
@@ -188,6 +187,10 @@
         <div class="information">
             <div class="container">
                 <img src="assets/images/bottom_promo.png" alt="Bottom Promo" class="information__image">
+                <div class="information__sale">
+                    <div class="information__sale-title">30% <span class="red-charachters">OFFER</span></div>
+                    <div class="information__sale-subtitle">FOR WOMEN</div>
+                </div>
                 <div class="information__content">
                     <div class="information__item">
                         <i class="fal fa-truck"></i>
@@ -226,20 +229,25 @@
                             <span class="red-charachters">Bin Burhan</span>
                             Dhaka, Bd
                         </div>
+                        <div class="subscribes__left-marks">
+                            <div class="subscribes__left-mark"></div>
+                            <div class="subscribes__left-mark active"></div>
+                            <div class="subscribes__left-mark"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="subscribes__right">
                     <div class="subscribes__right-title">SUBSCRIBE</div>
                     <div class="subscribes__right-subtitle">FOR OUR NEWLETTER AND PROMOTION</div>
-                    <div class="input__wrapper">
-                        <input type="text" placeholder="Enter Your Email">
-                        <a href="#" class="subscribes__submit btn_red"><span>Subscribes</span></a>
-                    </div>
+                    <form class="input__wrapper" action="">
+                        <input type="email" placeholder="name@mail.com" pattern="^([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})$">
+                        <button type="submit" class="subscribes__submit btn_red"><span>Subscribes</span></button>
+                    </form>
 
                 </div>
             </div>
         </div>
-    </section>
+    </main>
     <footer>
         <div class="footer__body">
             <div class="container">
@@ -266,31 +274,31 @@
                     <div class="footer__menu">
                         <div class="footer__menu-title red-charachters">COMPANY</div>
                         <ul>
-                            <a href="#"><li>Home</li></a>
-                            <a href="#"><li>Shop</li></a>
-                            <a href="#"><li>About</li></a>
-                            <a href="#"><li>How It Works</li></a>
-                            <a href="#"><li>Contact</li></a>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">How It Works</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                     <div class="footer__menu">
                         <div class="footer__menu-title red-charachters">INFORMATION</div>
                         <ul>
-                            <a href="#"><li>Tearms & Condition</li></a>
-                            <a href="#"><li>Privacy Policy</li></a>
-                            <a href="#"><li>How to Buy</li></a>
-                            <a href="#"><li>How to Sell</li></a>
-                            <a href="#"><li>Promotion</li></a>
+                            <li><a href="#">Tearms & Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">How to Buy</a></li>
+                            <li><a href="#">How to Sell</a></li>
+                            <li><a href="#">Promotion</a></li>
                         </ul>
                     </div>
                     <div class="footer__menu">
                         <div class="footer__menu-title red-charachters">SHOP CATEGORY</div>
                         <ul>
-                            <a href="#"><li>Men</li></a>
-                            <a href="#"><li>Women</li></a>
-                            <a href="#"><li>Child</li></a>
-                            <a href="#"><li>Apparel</li></a>
-                            <a href="#"><li>Brows All</li></a>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Child</a></li>
+                            <li><a href="#">Apparel</a></li>
+                            <li><a href="#">Brows All</a></li>
                         </ul>
                     </div>
                 </div>
@@ -300,25 +308,24 @@
             <div class="container">
                 <div class="copyright">&copy; 2017  Brand  All Rights Reserved.</div>
                 <div class="social">
-                    <div class="social__icon">
+                    <a class="social__icon">
                         <i class="fab fa-facebook-f"></i>
-                    </div>
-                    <div class="social__icon">
+                    </a>
+                    <a class="social__icon">
                         <i class="fab fa-twitter"></i>
-                    </div>
-                    <div class="social__icon">
+                    </a>
+                    <a class="social__icon">
                         <i class="fab fa-linkedin-in"></i>
-                    </div>
-                    <div class="social__icon">
+                    </a>
+                    <a class="social__icon">
                         <i class="fab fa-pinterest-p"></i>
-                    </div>
-                    <div class="social__icon">
+                    </a>
+                    <a class="social__icon">
                         <i class="fab fa-google-plus-g"></i>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </footer>
-
 </body>
 </html>

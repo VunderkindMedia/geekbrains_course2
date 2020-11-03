@@ -157,18 +157,15 @@ nav {
 
   a {
     text-decoration: none;
-
-    &:hover li {
-      color: $mainColor;
-      transition: .3s;
-    }
-  }
-
-  li {
     font-size: 14px;
     line-height: 26px;
     color: $secondColor;
     font-weight: 700;
+
+    &:hover {
+      color: $mainColor;
+      transition: .3s;
+    }
   }
 }
 
@@ -352,6 +349,7 @@ nav {
     font-size: 13px;
     color: #222222;
     margin-left: 15px;
+    font-weight: normal;
   }
 
   &__item-price {
@@ -391,6 +389,25 @@ nav {
 
   & > .container {
     display: flex;
+    position: relative;
+  }
+
+  &__sale {
+    position: absolute;
+    top: 130px;
+    left: 39px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+  }
+
+  &__sale-title {
+    font-size: 53.5px;
+    letter-spacing: 1.34px;
+  }
+
+  &__sale-subtitle {
+    font-size: 32px;
   }
 
   &__item {
@@ -428,7 +445,8 @@ nav {
 .subscribes {
   height: 438px;
   background: url("../images/subcribes_image.png") no-repeat;
-  background-size: 100%;
+  //background-size: 100%;
+  background-size: cover;
 
   &__avatar {
     width: 83px;
@@ -445,6 +463,23 @@ nav {
     display: flex;
     width: 1px;
     padding-right: 72px;
+  }
+
+  &__left-marks {
+    display: flex;
+    justify-content: space-between;
+    max-width: 140px;
+    margin-top: 40px;
+
+    & .active {
+      background-color: $mainColor;
+    }
+  }
+
+  &__left-mark {
+    width: 38px;
+    height: 4px;
+    background-color: #d6d6d6;
   }
   &__left-content {
     display: inline-block;
@@ -512,6 +547,7 @@ nav {
     background-color: #e1e1e1;
   }
   &__submit {
+    border: none !important;
     text-decoration: none;
     width: 104px;
     border-bottom-right-radius: 25px;
@@ -562,7 +598,7 @@ nav {
       list-style-type: none;
       padding: 0;
       margin-top: 29px;
-      & > a {
+      a {
         font-size: 16px;
         line-height: 2.17;
         letter-spacing: 0.4px;
@@ -599,6 +635,7 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    cursor: pointer;
     &:hover {
       background-color: $mainColor;
       transition: .5s;

@@ -119,15 +119,14 @@ header .container {
   margin: 0 auto;
   padding: 0; }
   .main_menu a {
-    text-decoration: none; }
-    .main_menu a:hover li {
-      color: #f16d7f;
-      transition: .3s; }
-  .main_menu li {
+    text-decoration: none;
     font-size: 14px;
     line-height: 26px;
     color: #222222;
     font-weight: 700; }
+    .main_menu a:hover {
+      color: #f16d7f;
+      transition: .3s; }
 
 .promo, .offers {
   margin-bottom: 100px; }
@@ -271,7 +270,8 @@ header .container {
   margin-bottom: 17px;
   font-size: 13px;
   color: #222222;
-  margin-left: 15px; }
+  margin-left: 15px;
+  font-weight: normal; }
 
 .catalog__item-price {
   font-size: 16px;
@@ -300,7 +300,20 @@ header .container {
     background-color: #222224;
     padding: 48px 36px; }
   .information > .container {
-    display: flex; }
+    display: flex;
+    position: relative; }
+  .information__sale {
+    position: absolute;
+    top: 130px;
+    left: 39px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: #ffffff; }
+  .information__sale-title {
+    font-size: 53.5px;
+    letter-spacing: 1.34px; }
+  .information__sale-subtitle {
+    font-size: 32px; }
   .information__item {
     display: flex; }
     .information__item > i {
@@ -326,7 +339,7 @@ header .container {
 .subscribes {
   height: 438px;
   background: url("../images/subcribes_image.png") no-repeat;
-  background-size: 100%; }
+  background-size: cover; }
   .subscribes__avatar {
     width: 83px;
     height: 83px;
@@ -340,6 +353,17 @@ header .container {
     display: flex;
     width: 1px;
     padding-right: 72px; }
+  .subscribes__left-marks {
+    display: flex;
+    justify-content: space-between;
+    max-width: 140px;
+    margin-top: 40px; }
+    .subscribes__left-marks .active {
+      background-color: #f16d7f; }
+  .subscribes__left-mark {
+    width: 38px;
+    height: 4px;
+    background-color: #d6d6d6; }
   .subscribes__left-content {
     display: inline-block; }
   .subscribes__left-description {
@@ -395,6 +419,7 @@ header .container {
     box-sizing: border-box;
     background-color: #e1e1e1; }
   .subscribes__submit {
+    border: none !important;
     text-decoration: none;
     width: 104px;
     border-bottom-right-radius: 25px;
@@ -439,13 +464,13 @@ header .container {
   list-style-type: none;
   padding: 0;
   margin-top: 29px; }
-  .footer__menu > ul > a {
+  .footer__menu > ul a {
     font-size: 16px;
     line-height: 2.17;
     letter-spacing: 0.4px;
     color: #898989;
     text-decoration: none; }
-    .footer__menu > ul > a:hover {
+    .footer__menu > ul a:hover {
       color: #cfcccc; }
 
 .footer__menu-title {
@@ -470,7 +495,8 @@ header .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    cursor: pointer; }
     .social__icon:hover {
       background-color: #f16d7f;
       transition: .5s; }
