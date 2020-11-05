@@ -5,7 +5,7 @@ body {
   font-family: Lato, sans-serif; }
 
 .red-charachters {
-  color: #f16d7f; }
+  color: #f16d7f !important; }
 
 header {
   height: 100px;
@@ -39,7 +39,6 @@ header .container {
 
 .search {
   height: 38px;
-  display: flex;
   display: flex;
   align-items: center; }
   .search__category {
@@ -80,11 +79,11 @@ header .container {
   margin-left: auto;
   height: 38px;
   align-items: flex-end; }
-  .header_menu > i {
+  .header_menu__cart > i {
     margin-right: 15px;
     font-size: 30px;
     color: #222222; }
-    .header_menu > i:hover {
+    .header_menu__cart > i:hover {
       -webkit-animation: swing 0.6s ease;
       animation: swing 0.6s ease;
       -webkit-animation-iteration-count: 1;
@@ -94,6 +93,7 @@ header .container {
   background-color: #f16d7f;
   text-decoration: none;
   width: 130px;
+  border-radius: 3px;
   height: inherit;
   display: flex;
   align-items: center;
@@ -266,18 +266,17 @@ header .container {
     opacity: .7; }
 
 .catalog__item-title {
-  margin-top: 20px;
-  margin-bottom: 17px;
   font-size: 13px;
   color: #222222;
-  margin-left: 15px;
+  margin: 20px 15px 17px;
   font-weight: normal; }
 
 .catalog__item-price {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 20px;
-  margin-left: 15px; }
+  margin-left: 15px;
+  margin-right: 15px; }
 
 .catalog__bottom {
   display: flex;
@@ -421,6 +420,8 @@ header .container {
   .subscribes__submit {
     border: none !important;
     text-decoration: none;
+    border-bottom-left-radius: unset;
+    border-top-left-radius: unset;
     width: 104px;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px; }
@@ -511,3 +512,177 @@ header .container {
     .social__icon i {
       font-size: 16px;
       color: #b2b2b2; }
+
+.breadcrumbs {
+  height: 148px;
+  background-color: #f8f3f4; }
+  .breadcrumbs > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .breadcrumbs__left {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 0.83; }
+  .breadcrumbs__right {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.43;
+    color: #636363; }
+
+.cart_items {
+  margin-top: 70px;
+  text-align: center; }
+  .cart_items table {
+    width: 100%;
+    border-spacing: unset; }
+    .cart_items table input {
+      margin: 0;
+      outline: none;
+      display: inline-block;
+      max-width: 54px;
+      width: 100%;
+      text-align: center;
+      padding: 5px 0; }
+  .cart_items th {
+    border-bottom: solid 1px #eaeaea; }
+    .cart_items th:nth-child(1) {
+      text-align: left; }
+  .cart_items tbody tr:hover {
+    background-color: #fdfafc; }
+  .cart_items tbody th {
+    padding: 25px 0; }
+    .cart_items tbody th i {
+      color: #c0c0c0;
+      cursor: pointer; }
+      .cart_items tbody th i:hover {
+        color: #8f8d8d;
+        transition: .5s; }
+  .cart_items__text, .cart_items__count {
+    font-size: 13px;
+    line-height: 1.54;
+    color: #656565; }
+  .cart_items__title {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.54;
+    letter-spacing: -0.2px;
+    padding: 20px 0;
+    box-sizing: border-box; }
+  .cart_items__details {
+    display: flex; }
+  .cart_items__item-title {
+    font-size: 13px;
+    color: #222222;
+    margin-bottom: 38px; }
+  .cart_items__item-color, .cart_items__item-size {
+    font-size: 13px;
+    line-height: 1.54;
+    color: #575757;
+    font-weight: normal; }
+  .cart_items__preview {
+    margin-right: 21px; }
+  .cart_items__count {
+    border: solid 1px #eaeaea; }
+  .cart_items__navigations {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px; }
+  .cart_items__navigation_buttons {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4a4a4a;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border: solid 1px #eaeaea;
+    text-decoration: none; }
+
+.buy_form {
+  margin-top: 63px; }
+  .buy_form > .container {
+    display: flex;
+    justify-content: flex-start; }
+  .buy_form__left, .buy_form__middle {
+    margin-right: 36px;
+    flex-grow: 1;
+    align-items: flex-start; }
+  .buy_form__left, .buy_form__right, .buy_form__middle {
+    display: flex;
+    flex-direction: column; }
+  .buy_form__right {
+    padding: 40px;
+    box-sizing: border-box;
+    max-height: 214px;
+    background-color: #f5f3f3; }
+  .buy_form__title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 22px; }
+  .buy_form__subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 24px; }
+  .buy_form input {
+    outline: none;
+    padding: 12px 18px;
+    box-sizing: border-box;
+    border: solid 1px #eaeaea;
+    max-width: 355px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 300;
+    color: #b1b1b1;
+    margin-bottom: 20px; }
+  .buy_form__save {
+    font-size: 11px;
+    font-weight: bold;
+    color: #4a4a4a;
+    text-decoration: none;
+    padding: 12px 18px;
+    box-sizing: border-box;
+    border: solid 1px #eaeaea; }
+  .buy_form__submit {
+    width: unset;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 13px;
+    border: none;
+    cursor: pointer; }
+  .buy_form__subtotal, .buy_form__grandtotal {
+    display: flex;
+    justify-content: flex-end; }
+  .buy_form__subtotal_title, .buy_form__subtotal_count {
+    font-size: 11px;
+    font-weight: normal;
+    color: #4a4a4a;
+    margin-bottom: 14px; }
+  .buy_form__grandtotal_title, .buy_form__grandtotal_count {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222; }
+  .buy_form__subtotal_title, .buy_form__grandtotal_title {
+    margin-right: 20px; }
+  .buy_form__devider {
+    height: 1px;
+    background-color: #e2e2e2;
+    margin-bottom: 17px;
+    margin-top: 22px; }
+  .buy_form fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+  .buy_form__city_wrapper, .buy_form__state_wrapper {
+    position: relative;
+    width: 100%; }
+    .buy_form__city_wrapper input, .buy_form__state_wrapper input {
+      padding: 12px 40px 12px 18px; }
+    .buy_form__city_wrapper i, .buy_form__state_wrapper i {
+      color: #b1b1b1;
+      position: absolute;
+      right: 16px;
+      top: 14px; }
