@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2abcc45-cb94-41a1-948d-12688513ffa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/relevant_img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/relevant_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/relevant_img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/relevant_img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/slider_img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/slider_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/slider_img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_page.html" afterDir="false" />
+    <list default="true" id="a2abcc45-cb94-41a1-948d-12688513ffa1" name="Default Changelist" comment="ДЗ к 4 уроку готово.">
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-slider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap-slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/effects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/effects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop_cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +36,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/assets/css" />
-      <recent name="$PROJECT_DIR$/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
@@ -135,10 +131,10 @@
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="458" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.824@0.23.1440.824" timestamp="1604642679988" />
-    <state x="306" y="29" key="CommitChangelistDialog2" timestamp="1604538666417">
+    <state x="237" y="23" key="CommitChangelistDialog2" timestamp="1605170595709">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state x="306" y="29" key="CommitChangelistDialog2/0.23.1440.824@0.23.1440.824" timestamp="1604538666417" />
+    <state x="237" y="23" key="CommitChangelistDialog2/0.23.1440.824@0.23.1440.824" timestamp="1605170595709" />
     <state x="372" y="220" key="EditFileWatcherDialog" timestamp="1603969789192">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
