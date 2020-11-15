@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2abcc45-cb94-41a1-948d-12688513ffa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/cart_img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/cart_img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/cart_img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_cart.html" afterDir="false" />
+    <list default="true" id="a2abcc45-cb94-41a1-948d-12688513ffa1" name="Default Changelist" comment="ДЗ к 4 уроку готово.">
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-slider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap-slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/effects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/effects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson1" />
+        <entry key="$PROJECT_DIR$" value="lesson2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,21 +36,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/assets/css" />
-      <recent name="$PROJECT_DIR$/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
@@ -61,6 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -74,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603969207336</updated>
       <workItem from="1603969208390" duration="28807000" />
-      <workItem from="1604361183180" duration="16217000" />
+      <workItem from="1604361183180" duration="29605000" />
+      <workItem from="1605078318521" duration="581000" />
     </task>
     <task id="LOCAL-00001" summary="init git">
       <created>1604133975254</created>
@@ -97,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604363435795</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Страница корзины готова.&#10;Переход на страницу корзины осуществляется по клику на иконку корзины в хэдэре.&#10;&#10;Ссылка на главную в главном меню и по клику на лого.&#10;&#10;Форма заказа - все поля обязательны для заполнения. Организованы дата-листы в двух первых инпутах.">
+      <created>1604538666631</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604538666631</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +115,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init git" />
     <MESSAGE value="Стартовая страница полностью готова." />
-    <option name="LAST_COMMIT_MESSAGE" value="Стартовая страница полностью готова." />
+    <MESSAGE value="Страница корзины готова.&#10;Переход на страницу корзины осуществляется по клику на иконку корзины в хэдэре.&#10;&#10;Ссылка на главную в главном меню и по клику на лого.&#10;&#10;Форма заказа - все поля обязательны для заполнения. Организованы дата-листы в двух первых инпутах." />
+    <option name="LAST_COMMIT_MESSAGE" value="Страница корзины готова.&#10;Переход на страницу корзины осуществляется по клику на иконку корзины в хэдэре.&#10;&#10;Ссылка на главную в главном меню и по клику на лого.&#10;&#10;Форма заказа - все поля обязательны для заполнения. Организованы дата-листы в двух первых инпутах." />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="321" key="#File_Watchers" timestamp="1603969791424">
@@ -117,14 +127,14 @@
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="507" y="147" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.824@0.23.1440.824" timestamp="1603969619798" />
-    <state x="458" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604107931281">
+    <state x="458" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604642679988">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state x="458" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.824@0.23.1440.824" timestamp="1604107931281" />
-    <state x="306" y="29" key="CommitChangelistDialog2" timestamp="1604363435520">
+    <state x="458" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.824@0.23.1440.824" timestamp="1604642679988" />
+    <state x="237" y="23" key="CommitChangelistDialog2" timestamp="1605170595709">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state x="306" y="29" key="CommitChangelistDialog2/0.23.1440.824@0.23.1440.824" timestamp="1604363435520" />
+    <state x="237" y="23" key="CommitChangelistDialog2/0.23.1440.824@0.23.1440.824" timestamp="1605170595709" />
     <state x="372" y="220" key="EditFileWatcherDialog" timestamp="1603969789192">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
@@ -133,9 +143,9 @@
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.23.1440.824@0.23.1440.824" timestamp="1603970101547" />
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1604363442853">
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1604538674721">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.824@0.23.1440.824" timestamp="1604363442853" />
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.824@0.23.1440.824" timestamp="1604538674721" />
   </component>
 </project>

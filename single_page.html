@@ -1,26 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Brand Shop Online</title>
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <header>
-    <div class="container">
+        <div class="container">
         <div class="logo">
             <img src="assets/images/logo.png" alt="Logo" class="logo__image">
-            <a href="#" class="logo__title">
+            <a href="index.html" class="logo__title">
                 BRAN<span class="red-charachters">D</span>
             </a>
 
         </div>
         <div class="search">
-            <a href='index.html' class="search__category search__btn">
+            <a href='#' class="search__category search__btn">
                 Browse
                 <i class="fas fa-caret-down"></i>
             </a>
@@ -38,12 +41,12 @@
             </a>
         </div>
     </div>
-</header>
+    </header>
     <nav class="container">
         <ul class="main_menu">
             <li><a href="index.html">HOME</a></li>
             <li><a href="#">MAN</a></li>
-            <li><a href="single_page.html">WOMAN</a></li>
+            <li><a href="#">WOMAN</a></li>
             <li><a href="#">KIDS</a></li>
             <li><a href="#">ACCOSERIESE</a></li>
             <li><a href="#">FEATURED</a></li>
@@ -51,53 +54,132 @@
         </ul>
     </nav>
     <main>
-        <div class="promo">
+        <div class="breadcrumbs">
             <div class="container">
-                <div class="title">
-                    <div class="title__top">THE BRAND</div>
-                    <div class="title__bottom">OF LUXERIOUS <span class="red-charachters">FASHION</span></div>
+                <div class="breadcrumbs__left red-charachters">
+                    NEW ARRIVALS
+                </div>
+                <div class="breadcrumbs__right">
+                    <ul>
+                        <li><a href="index.html">HOME</a><span>/</span></li>
+
+                        <li><a href="#">MEN</a><span>/</span></li>
+                        <li><span class="red-charachters">NEW ARRIVALS</span></li>
+                    </ul>
+
                 </div>
             </div>
         </div>
-        <div class="offers">
+        <div class="slider">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators slider__indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/slider_img1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/slider_img2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/slider_img3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <div class="slider__buttons">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </div>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <div class="slider__buttons">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </div>
+                    </a>
+                </div>
+        </div>
+        <div class="purchase_form">
             <div class="container">
-                <div class="offers__block">
-                    <a href="#" class="offer offer_1">
-                        <div class="offer__label">
-                            <div class="offer__top-label">HOT DEAL</div>
-                            <div class="offer__bottom-label red-charachters">FOR MEN</div>
-                        </div>
-                    </a>
-                    <a href="#" class="offer offer_2">
-                        <div class="offer__label">
-                            <div class="offer__top-label">LUXIROUS & TRENDY ACCESORIES</div>
-                            <div class="offer__bottom-label red-charachters">ACCESORIES</div>
-                        </div>
-                    </a>
+                <div class="purchase_form__title red-charachters">
+                    WOMEN COLLECTION
                 </div>
-                <div class="offers__block">
-                    <a href="#" class="offer offer_3">
-                        <div class="offer__label">
-                            <div class="offer__top-label">30% OFFER</div>
-                            <div class="offer__bottom-label red-charachters">WOMEN</div>
-                        </div>
-                    </a>
-                    <a href="#" class="offer offer_4">
-                        <div class="offer__label">
-                            <div class="offer__top-label">NEW ARRIVALS</div>
-                            <div class="offer__bottom-label red-charachters">FOR KIDS</div>
-                        </div>
-                    </a>
+                <div class="purchase_form__subtitle">
+                    MOSCHINO CHEAP AND CHIC
                 </div>
+                <div class="purchase_form__content">
+                    Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate
+                    collaborative architectures before cutting-edge services. Completely visualize parallel core competencies
+                    rather than exceptional portals.
+                </div>
+                <div class="purchase_form__properties">
+                    <div class="purchase_form__material">
+                        MATERIAL: <span>COTTON</span>
+                    </div>
+                    <div class="purchase_form__designer">
+                        DESIGNER: <span>BINBURHAN</span>
+                    </div>
+                </div>
+                <div class="purchase_form__price red-charachters">
+                    $561
+                </div>
+                <form class="purchase_form__form" action="">
+                    <fieldset>
+                        <div class="purchase_form__field">
+                            <span>CHOOSE COLOR</span>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="color" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-square-full" style="color: #ef5b70; margin-right: 10px"></i>Red
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="color">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-square-full" style="color: #ef5b70; margin-right: 10px"></i>Red</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-square-full" style="color: #8fef5b; margin-right: 10px"></i>Green</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-square-full" style="color: #5befe3; margin-right: 10px"></i>Blue</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="purchase_form__field">
+                            <span>CHOOSE SIZE</span>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="size" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    XXL
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="size">
+                                    <a class="dropdown-item" href="#">XXXL</a>
+                                    <a class="dropdown-item" href="#">XXL</a>
+                                    <a class="dropdown-item" href="#">XL</a>
+                                    <a class="dropdown-item" href="#">XS</a>
+                                    <a class="dropdown-item" href="#">S</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="purchase_form__field">
+                            <span>QUANTITY</span>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="quantity" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    2
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="quantity">
+                                    <a class="dropdown-item" href="#">1</a>
+                                    <a class="dropdown-item" href="#">2</a>
+                                    <a class="dropdown-item" href="#">3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <button type="button" class="btn btn-outline-danger purchase_form__submit"><i class="fal fa-shopping-cart"></i> Add to Cart</button>
+                </form>
             </div>
         </div>
-        <div class="catalog">
+        <div class="catalog relevant">
             <div class="container">
-                <div class="catalog__title">Fetured Items</div>
-                <div class="catalog__subtitle">Shop for items based on what we featured in this week</div>
+                <div class="relevant__title">YOU MAY LIKE ALSO</div>
                 <div class="catalog__items">
-                    <a class="catalog__item" href="product.html">
-                        <img src="assets/images/cat_image1.png" alt="Image 1" class="catalog__item-image">
+                    <a class="catalog__item" href="#">
+                        <img src="assets/images/relevant_img1.png" alt="Image 1" class="catalog__item-image">
                         <h2 class="catalog__item-title">Mango  People  T-shirt</h2>
                         <div class="catalog__item-price red-charachters">$52.00</div>
                         <div class="catalog__dark-placeholder">
@@ -106,8 +188,8 @@
                             </div>
                         </div>
                     </a>
-                    <a class="catalog__item" href="product.html">
-                        <img src="assets/images/cat_image2.png" alt="Image 1" class="catalog__item-image">
+                    <a class="catalog__item" href="#">
+                        <img src="assets/images/relevant_img2.png" alt="Image 2" class="catalog__item-image">
                         <div class="catalog__item-title">Mango  People  T-shirt</div>
                         <div class="catalog__item-price red-charachters">$52.00</div>
                         <div class="catalog__dark-placeholder">
@@ -116,8 +198,8 @@
                             </div>
                         </div>
                     </a>
-                    <a class="catalog__item" href="product.html">
-                        <img src="assets/images/cat_image3.png" alt="Image 1" class="catalog__item-image">
+                    <a class="catalog__item" href="#">
+                        <img src="assets/images/relevant_img3.png" alt="Image 3" class="catalog__item-image">
                         <div class="catalog__item-title">Mango  People  T-shirt</div>
                         <div class="catalog__item-price red-charachters">$52.00</div>
                         <div class="catalog__dark-placeholder">
@@ -126,8 +208,8 @@
                             </div>
                         </div>
                     </a>
-                    <a class="catalog__item" href="product.html">
-                        <img src="assets/images/cat_image4.png" alt="Image 1" class="catalog__item-image">
+                    <a class="catalog__item" href="#">
+                        <img src="assets/images/relevant_img4.png" alt="Image 4" class="catalog__item-image">
                         <div class="catalog__item-title">Mango  People  T-shirt</div>
                         <div class="catalog__item-price red-charachters">$52.00</div>
                         <div class="catalog__dark-placeholder">
@@ -136,83 +218,6 @@
                             </div>
                         </div>
                     </a>
-                    <a class="catalog__item" href="product.html">
-                        <img src="assets/images/cat_image5.png" alt="Image 1" class="catalog__item-image">
-                        <div class="catalog__item-title">Mango  People  T-shirt</div>
-                        <div class="catalog__item-price red-charachters">$52.00</div>
-                        <div class="catalog__dark-placeholder">
-                            <div class="catalog__cart-btn">
-                                <i class="fal fa-shopping-cart"></i> Add to Cart
-                            </div>
-                        </div>
-                    </a>
-                    <a class="catalog__item" href="product.html">
-                        <img src="assets/images/cat_image6.png" alt="Image 1" class="catalog__item-image">
-                        <div class="catalog__item-title">Mango  People  T-shirt</div>
-                        <div class="catalog__item-price red-charachters">$52.00</div>
-                        <div class="catalog__dark-placeholder">
-                            <div class="catalog__cart-btn">
-                                <i class="fal fa-shopping-cart"></i> Add to Cart
-                            </div>
-                        </div>
-                    </a>
-                    <a class="catalog__item" href="product.html">
-                        <img src="assets/images/cat_image7.png" alt="Image 1" class="catalog__item-image">
-                        <div class="catalog__item-title">Mango  People  T-shirt</div>
-                        <div class="catalog__item-price red-charachters">$52.00</div>
-                        <div class="catalog__dark-placeholder">
-                            <div class="catalog__cart-btn">
-                                <i class="fal fa-shopping-cart"></i> Add to Cart
-                            </div>
-                        </div>
-                    </a>
-                    <a class="catalog__item" href="product.html">
-                        <img src="assets/images/cat_image8.png" alt="Image 1" class="catalog__item-image">
-                        <div class="catalog__item-title">Mango  People  T-shirt</div>
-                        <div class="catalog__item-price red-charachters">$52.00</div>
-                        <div class="catalog__dark-placeholder">
-                            <div class="catalog__cart-btn">
-                                <i class="fal fa-shopping-cart"></i> Add to Cart
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="catalog__bottom">
-                    <a href="#" class="catalog__more-btn btn_red">Browse All Product
-                        <i class="fas fa-long-arrow-alt-right"></i></a>
-                </div>
-
-            </div>
-        </div>
-        <div class="information">
-            <div class="container">
-                <img src="assets/images/bottom_promo.png" alt="Bottom Promo" class="information__image">
-                <div class="information__sale">
-                    <div class="information__sale-title">30% <span class="red-charachters">OFFER</span></div>
-                    <div class="information__sale-subtitle">FOR WOMEN</div>
-                </div>
-                <div class="information__content">
-                    <div class="information__item">
-                        <i class="fal fa-truck"></i>
-                        <div class="information__description">
-                            <div class="information__title">Free Delivery</div>
-                            <div class="information__subtitle">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
-                        </div>
-                    </div>
-                    <div class="information__item">
-                        <i class="fal fa-badge-percent"></i>
-                        <div class="information__description">
-                            <div class="information__title">Sales & discounts</div>
-                            <div class="information__subtitle">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
-                        </div>
-                    </div>
-                    <div class="information__item">
-                        <i class="fal fa-crown"></i>
-                        <div class="information__description">
-                            <div class="information__title">Quality assurance</div>
-                            <div class="information__subtitle">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
