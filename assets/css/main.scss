@@ -335,6 +335,7 @@ nav {
       color: $mainColor !important;
     }
   }
+
   &__dark-placeholder {
     background: #000;
     opacity: 0;
@@ -344,6 +345,7 @@ nav {
     left: 0;
     right: 0;
   }
+
   &__cart-btn {
     position: absolute;
     top: 40%;
@@ -355,6 +357,7 @@ nav {
     box-sizing: border-box;
     border: 1px solid #fff;
   }
+
   &__title {
     font-size: 30px;
     font-weight: bold;
