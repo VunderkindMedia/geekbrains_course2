@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2abcc45-cb94-41a1-948d-12688513ffa1" name="Default Changelist" comment="ДЗ к 4 уроку готово.">
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-slider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap-slider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+    <list default="true" id="a2abcc45-cb94-41a1-948d-12688513ffa1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/effects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/effects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/effects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/effects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson2" />
+        <entry key="$PROJECT_DIR$" value="lesson4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jY7X3yyUAXwGJOPgYxFr81L1G9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
@@ -106,17 +107,26 @@
       <option name="project" value="LOCAL" />
       <updated>1604538666631</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ДЗ к 4 уроку готово.&#10;&#10;Применены некоторые компоненты бутстрапа.">
+      <created>1605170693158</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605170693158</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init git" />
     <MESSAGE value="Стартовая страница полностью готова." />
     <MESSAGE value="Страница корзины готова.&#10;Переход на страницу корзины осуществляется по клику на иконку корзины в хэдэре.&#10;&#10;Ссылка на главную в главном меню и по клику на лого.&#10;&#10;Форма заказа - все поля обязательны для заполнения. Организованы дата-листы в двух первых инпутах." />
-    <option name="LAST_COMMIT_MESSAGE" value="Страница корзины готова.&#10;Переход на страницу корзины осуществляется по клику на иконку корзины в хэдэре.&#10;&#10;Ссылка на главную в главном меню и по клику на лого.&#10;&#10;Форма заказа - все поля обязательны для заполнения. Организованы дата-листы в двух первых инпутах." />
+    <MESSAGE value="ДЗ к 4 уроку готово.&#10;&#10;Применены некоторые компоненты бутстрапа." />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ к 4 уроку готово.&#10;&#10;Применены некоторые компоненты бутстрапа." />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="321" key="#File_Watchers" timestamp="1603969791424">
@@ -127,25 +137,45 @@
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="507" y="147" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.824@0.23.1440.824" timestamp="1603969619798" />
-    <state x="458" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604642679988">
+    <state x="458" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605411490016">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state x="458" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.824@0.23.1440.824" timestamp="1604642679988" />
-    <state x="237" y="23" key="CommitChangelistDialog2" timestamp="1605170595709">
+    <state x="458" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.824@0.23.1440.824" timestamp="1605411490016" />
+    <state x="237" y="23" key="CommitChangelistDialog2" timestamp="1605170692921">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state x="237" y="23" key="CommitChangelistDialog2/0.23.1440.824@0.23.1440.824" timestamp="1605170595709" />
+    <state x="237" y="23" key="CommitChangelistDialog2/0.23.1440.824@0.23.1440.824" timestamp="1605170692921" />
     <state x="372" y="220" key="EditFileWatcherDialog" timestamp="1603969789192">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="372" y="220" key="EditFileWatcherDialog/0.23.1440.824@0.23.1440.824" timestamp="1603969789192" />
+    <state width="1419" height="264" key="GridCell.Tab.0.bottom" timestamp="1605423862867">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state width="1419" height="264" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1605423862867" />
+    <state width="1419" height="264" key="GridCell.Tab.0.center" timestamp="1605423862865">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state width="1419" height="264" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1605423862865" />
+    <state width="1419" height="264" key="GridCell.Tab.0.left" timestamp="1605423862864">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state width="1419" height="264" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1605423862864" />
+    <state width="1419" height="264" key="GridCell.Tab.0.right" timestamp="1605423862866">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state width="1419" height="264" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1605423862866" />
     <state x="221" y="74" key="SettingsEditor" timestamp="1603970101547">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.23.1440.824@0.23.1440.824" timestamp="1603970101547" />
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1604538674721">
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1605170695950">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.824@0.23.1440.824" timestamp="1604538674721" />
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.824@0.23.1440.824" timestamp="1605170695950" />
+    <state x="385" y="171" key="search.everywhere.popup" timestamp="1605423161670">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state x="385" y="171" key="search.everywhere.popup/0.23.1440.824@0.23.1440.824" timestamp="1605423161670" />
   </component>
 </project>
