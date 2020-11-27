@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2abcc45-cb94-41a1-948d-12688513ffa1" name="Default Changelist" comment="ДЗ к 6 уроку с небольшим применением грида.&#10;&#10;Общая сетка, список товаров и блок offers на гридах.">
+    <list default="true" id="a2abcc45-cb94-41a1-948d-12688513ffa1" name="Default Changelist" comment="ДЗ к 7 уроку.&#10;&#10;Времени очень мало. Сделал адаптивность только одной страницы. К следующему уроку постараюсь все адаптировать.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/toCheck8_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/toCheck8_shop_cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/single_page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson5" />
+        <entry key="$PROJECT_DIR$" value="lesson7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +56,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.toCheck7_index.html">
+  <component name="RunManager" selected="JavaScript Debug.toCheck8_product.html">
     <configuration name="checkout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Course2Lesson1/checkout.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -63,11 +66,18 @@
     <configuration name="toCheck7_index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Course2Lesson1/toCheck7_index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="toCheck8_product.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Course2Lesson1/toCheck8_product.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="toCheck8_shop_cart.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Course2Lesson1/toCheck8_shop_cart.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.toCheck8_product.html" />
+        <item itemvalue="JavaScript Debug.toCheck8_shop_cart.html" />
         <item itemvalue="JavaScript Debug.toCheck7_index.html" />
         <item itemvalue="JavaScript Debug.checkout.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -85,7 +95,8 @@
       <workItem from="1605078318521" duration="581000" />
       <workItem from="1605498908453" duration="7789000" />
       <workItem from="1605919883504" duration="7000" />
-      <workItem from="1606097257451" duration="7332000" />
+      <workItem from="1606097257451" duration="8591000" />
+      <workItem from="1606444099205" duration="3070000" />
     </task>
     <task id="LOCAL-00001" summary="init git">
       <created>1604133975254</created>
@@ -136,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605506823718</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ДЗ к 7 уроку.&#10;&#10;Времени очень мало. Сделал адаптивность только одной страницы. К следующему уроку постараюсь все адаптировать.">
+      <created>1606110345986</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606110345986</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +168,8 @@
     <MESSAGE value="ДЗ к 4 уроку готово.&#10;&#10;Применены некоторые компоненты бутстрапа." />
     <MESSAGE value="ДЗ к 5 уроку.&#10;&#10;Добавил страницу checkout.html&#10;Анимация уже давно есть на разных страницах, но добавил еще в блок subcribse - увиличиение аватарки по ховеру.&#10;Убрал вендорные префиксы для вебКита." />
     <MESSAGE value="ДЗ к 6 уроку с небольшим применением грида.&#10;&#10;Общая сетка, список товаров и блок offers на гридах." />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ к 6 уроку с небольшим применением грида.&#10;&#10;Общая сетка, список товаров и блок offers на гридах." />
+    <MESSAGE value="ДЗ к 7 уроку.&#10;&#10;Времени очень мало. Сделал адаптивность только одной страницы. К следующему уроку постараюсь все адаптировать." />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ к 7 уроку.&#10;&#10;Времени очень мало. Сделал адаптивность только одной страницы. К следующему уроку постараюсь все адаптировать." />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="321" key="#File_Watchers" timestamp="1603969791424">
@@ -165,10 +184,11 @@
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="458" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.824@0.23.1440.824" timestamp="1605411490016" />
-    <state x="141" y="23" key="CommitChangelistDialog2" timestamp="1605506936763">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state x="141" y="25" key="CommitChangelistDialog2" timestamp="1606280255615">
+      <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state x="141" y="23" key="CommitChangelistDialog2/0.23.1440.824@0.23.1440.824" timestamp="1605506936763" />
+    <state x="141" y="25" key="CommitChangelistDialog2/0.25.1440.816@0.25.1440.816" timestamp="1606280255615" />
     <state x="372" y="220" key="EditFileWatcherDialog" timestamp="1603969789192">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
@@ -241,10 +261,11 @@
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.23.1440.824@0.23.1440.824" timestamp="1603970101547" />
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1605506835124">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state x="320" y="176" key="Vcs.Push.Dialog.v2" timestamp="1606110350220">
+      <screen x="0" y="25" width="1440" height="816" />
     </state>
     <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.23.1440.824@0.23.1440.824" timestamp="1605506835124" />
+    <state x="320" y="176" key="Vcs.Push.Dialog.v2/0.25.1440.816@0.25.1440.816" timestamp="1606110350220" />
     <state x="385" y="172" width="670" height="676" key="search.everywhere.popup" timestamp="1606108820529">
       <screen x="0" y="25" width="1440" height="816" />
     </state>
