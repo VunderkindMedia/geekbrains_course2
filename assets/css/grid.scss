@@ -49,17 +49,31 @@ body {
 .grid-wrapper {
   display: grid;
   grid-template-rows: 100px 51px 1fr 540px;
+  @media (max-width: 414px) {
+    padding: 20px 0;
+    grid-template-rows: unset;
+  }
 }
 
 .container {
   max-width: 1140px;
   margin: 0 auto;
   height: inherit;
+
+  @media (max-width: 1112px) {
+    max-width: unset;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
 }
 
 .logo {
   display: flex;
   align-items: center;
+
+  @media (max-width: 414px) {
+    justify-content: center;
+  }
 
   &__title {
     margin-left: 13px;
@@ -118,6 +132,12 @@ body {
     border-bottom: 1px solid $bordersColor;
     padding: 8px;
     width: 283px;
+    @media (min-width: 767px) and (max-width: 1024px) {
+      width: unset;
+    }
+    @media (max-width: 414px) {
+      width: unset;
+    }
   }
 
   &__btn {
@@ -132,6 +152,17 @@ body {
     grid-template: 100px / 165px 404px 1fr;
     align-items: center;
     gap: 40px;
+
+    @media (min-width: 767px) and (max-width: 1024px) {
+      grid-template: 100px / 1fr 1fr 1fr;
+    }
+
+    @media (max-width: 414px) {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      grid-template: unset;
+      padding-bottom: 20px;
+    }
   }
 
   &__menu {
@@ -139,6 +170,9 @@ body {
     align-self: center;
     height: 38px;
     display: flex;
+    @media (max-width: 414px) {
+      justify-self: unset;
+    }
   }
 
   &__cart-icon {
@@ -153,6 +187,9 @@ body {
 
 .navigation {
   &__container {
+    @media (max-width: 1112px) {
+      padding-bottom: 15px;
+    }
     display: flex;
     justify-content: center;
   }
@@ -164,6 +201,10 @@ body {
   justify-content: space-between;
   max-width: 753px;
   width: 100%;
+  @media (max-width: 414px) {
+    align-items: center;
+    flex-direction: column;
+  }
   &__link {
     text-decoration: none;
     font-size: 14px;
@@ -197,11 +238,19 @@ body {
   background: #e8e8e8;
   height: 615px;
 
+  @media (max-width: 414px) {
+    height: unset;
+    padding: 15px;
+  }
+
   &__container {
     background: url("../images/topHeaderBack.png") no-repeat top 0 right 30px;
     background-size: 50%;
     display: flex;
     align-items: center;
+    @media (max-width: 414px) {
+      all: unset;
+    }
   }
   &__title {
     border-left: 8px solid $mainColor;
@@ -215,16 +264,25 @@ body {
     justify-content: space-between;
     height: 92px;
     margin-top: -60px;
+    @media (max-width: 414px) {
+      margin-top: unset;
+    }
 
 
     &_top {
       font-size: 60px;
       line-height: 42px;
+      @media (max-width: 414px) {
+        font-size: 35px;
+      }
     }
 
     &_bottom {
       font-size: 38px;
       line-height: 30px;
+      @media (max-width: 1112px) {
+        font-size: 22px;
+      }
     }
   }
 }
@@ -232,6 +290,10 @@ body {
 .offers {
   &_default {
     margin-top: 100px;
+    @media (max-width: 414px) {
+      margin-top: unset;
+      padding-top: 20px;
+    }
   }
   &__container {
       display: grid;
@@ -242,7 +304,12 @@ body {
                           "offer-2 offer-4"
 
   ;
-    gap:20px
+    gap:20px;
+    @media (max-width: 414px) {
+      all: unset;
+      display: flex;
+      flex-direction: column;
+  }
   }
 
   &__item-1 {
@@ -268,6 +335,23 @@ body {
   padding-top: 26px;
   box-sizing: border-box;
   text-decoration: none;
+  @media (max-width: 414px) {
+    width: 100%;
+    height: 261px;
+    background-position-x: -154px;
+    margin-bottom: 15px;
+    &:first-child , &:last-child {
+      height: 542px;
+    }
+  }
+  @media (min-width: 767px) and (max-width: 1112px) {
+      width: 100%;
+    background-position: center;
+  }
+  @media (min-width: 567px) and (max-width: 736px) {
+    width: 100%;
+    background-position: center;
+  }
   &:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: .3s;
@@ -284,15 +368,29 @@ body {
     font-weight: 900;
     letter-spacing: 0.025em;
     color: #222222;
+    @media (max-width: 414px) {
+      opacity: .7;
+      padding: 9px 10px;
+    }
   }
 
   &__top-label {
     font-size: 18px;
     line-height: 14px;
     margin-bottom: 12px;
+    @media (max-width: 414px) {
+      font-size: 15px;
+      line-height: 16px;
+      margin-bottom: 6px;
+    }
   }
 
   &__bottom-label {
+    @media (max-width: 414px) {
+        font-size: 16px;
+      line-height: 5px;
+      }
+
     font-size: 30px;
     color: $mainColor;
     line-height: 24px;
@@ -303,6 +401,10 @@ body {
 
   &_default {
     margin-top: 100px;
+    @media (max-width: 414px) {
+      margin-top: unset;
+      padding-top: 20px;
+    }
   }
 
   &__footer {
@@ -373,11 +475,29 @@ body {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
     row-gap: 40px;
+    @media (max-width: 414px) {
+      all: unset;
+      display: grid;
+    }
+    @media (min-width: 415px) and (max-width: 834px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   &__item {
     position: relative;
     text-decoration: none;
+    @media (max-width: 414px) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__item-image {
+
+    @media (max-width: 1112px) {
+      width: 100%;
+    }
+
   }
 
   &__item:hover {
@@ -408,6 +528,9 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 113px;
+    @media (max-width: 414px) {
+     margin-bottom: 50px;
+    }
   }
 
   &__more-btn {
@@ -417,6 +540,9 @@ body {
     font-size: 16px;
     font-weight: bold;
     margin-top: 100px;
+    @media (max-width: 414px) {
+      margin-top: 20px;
+    }
 
     i {
       margin-left: 9px;
@@ -426,9 +552,16 @@ body {
 
 .information {
   height: 529px;
+  @media (max-width: 834px) {
+    height: unset;
+
+  }
 
   &_default {
     margin-bottom: 100px;
+    @media (max-width: 414px) {
+     margin-bottom: 20px;
+    }
   }
 
   &__content {
@@ -439,6 +572,19 @@ body {
   &__container {
     display: flex;
     position: relative;
+
+    @media (max-width: 834px) {
+        flex-direction: column;
+    }
+  }
+
+  &__image {
+    @media (max-width: 834px) {
+      width: 100%;
+    }
+    @media (min-width: 1024px) and (max-width: 1112px) {
+      width: 60%;
+    }
   }
 
   &__sale {
@@ -453,10 +599,17 @@ body {
   &__sale-title {
     font-size: 53.5px;
     letter-spacing: 1.34px;
+
+    @media (max-width: 414px) {
+      font-size: 30px;
+    }
   }
 
   &__sale-subtitle {
     font-size: 32px;
+    @media (max-width: 414px) {
+      font-size: 23px;
+    }
   }
 
   &__item {
@@ -495,6 +648,9 @@ body {
   height: 438px;
   background: url("../images/subcribes_image.png") no-repeat;
   background-size: cover;
+  @media (max-width: 414px) {
+    height: unset;
+  }
 
   &__avatar {
     width: 83px;
@@ -510,12 +666,19 @@ body {
     display: flex;
     padding-top: 111px;
     box-sizing: border-box;
+    @media (max-width: 414px) {
+      flex-direction: column;
+      padding: 20px;
+    }
   }
   &__left {
     flex-grow: 1;
     display: flex;
     width: 1px;
     padding-right: 72px;
+    @media (max-width: 414px) {
+     width: unset;
+    }
   }
 
   &__left-marks {
@@ -571,6 +734,9 @@ body {
     color: #222224;
     padding-top: 37px;
     box-sizing: border-box;
+    @media (max-width: 414px) {
+      width: unset;
+    }
   }
   &__right-title {
     font-size: 24px;
@@ -598,6 +764,12 @@ body {
     padding: 18px 28px;
     box-sizing: border-box;
     background-color: #e1e1e1;
+    @media (max-width: 414px) {
+      width: unset;
+    }
+    @media (min-width: 415px) and (max-width: 834px) {
+      width: unset;
+    }
   }
   &__submit {
     border: none !important;
@@ -618,19 +790,37 @@ body {
     display: flex;
     padding: 109px 0 89px;
     box-sizing: border-box;
+    @media (min-width: 767px) and (max-width: 1024px) {
+      padding: 15px 10px;
+      flex-direction: column;
+    }
+    @media (max-width: 414px) {
+      flex-direction: column;
+      padding: unset;
+    }
   }
   &__container_bottom {
     display: flex;
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
+    @media (max-width: 414px) {
+      flex-direction: column;
+      padding: 15px;
+    }
   }
   &__body {
     height: 458px;
+    @media (max-width: 414px) {
+      height: unset;
+    }
   }
   &__bottom {
     height: 80px;
     background-color: #e6e6e6;
+    @media (max-width: 414px) {
+     height: unset;
+    }
   }
   &__body-left {
     width: 430px;
@@ -639,6 +829,17 @@ body {
     letter-spacing: 0.35px;
     color: #898989;
     margin-right: 64px;
+    @media (min-width: 767px) and (max-width: 1024px) {
+     margin-right: unset;
+    }
+    @media (max-width: 414px) {
+      margin: 10px;
+      text-align: center;
+      width: unset;
+    }
+    @media (min-width: 767px) and (max-width: 1024px) {
+      width: unset;
+    }
   }
   &__description {
     margin-top: 25px;
@@ -649,12 +850,23 @@ body {
     box-sizing: border-box;
     justify-content: space-between;
     flex: 1;
+    @media (max-width: 414px) {
+      flex-direction: column;
+      padding: unset;
+    }
   }
   &__menu {
+    @media (max-width: 414px) {
+      text-align: center;
+    }
     & > ul {
       list-style-type: none;
       padding: 0;
       margin-top: 29px;
+      @media (max-width: 414px) {
+       margin-top: 10px;
+        margin-bottom: 20px;
+      }
       a {
         font-size: 16px;
         line-height: 2.17;

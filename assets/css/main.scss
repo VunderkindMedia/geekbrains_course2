@@ -5,6 +5,54 @@ $mainColor: #f16d7f;
 $secondColor: #222222;
 $bordersColor: #ececec;
 
+//<Анимация>
+
+@keyframes trAnimation {
+  0% {
+    transform: translateX(-500px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes iconAnimation {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  10% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  80% {
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+  }
+  90% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
+  }
+}
+//</Анимация>
+
+
 body {
   margin: 0;
   font-family: Lato, sans-serif;
@@ -466,6 +514,9 @@ nav {
 
   &__item {
     display: flex;
+    &:hover i {
+      animation: iconAnimation 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    }
 
     & > i {
       font-size: 36px;
@@ -761,9 +812,15 @@ nav {
 .cart_items {
   margin-top: 70px;
   text-align: center;
-  //& > .container {
-  //  display: flex;
-  //}
+  & tr:nth-child(1) {
+      animation: trAnimation 1s cubic-bezier(0,1.86,.67,1.51) 0s both;
+  }
+  & tr:nth-child(2) {
+    animation: trAnimation 1s cubic-bezier(0,1.86,.67,1.51) .1s both;
+  }
+  & tr:nth-child(3) {
+    animation: trAnimation 1s cubic-bezier(0,1.86,.67,1.51) .2s both;
+  }
   table {
     width: 100%;
     border-spacing: unset;

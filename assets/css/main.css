@@ -1,5 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 @import url("effects.css");
+@keyframes trAnimation {
+  0% {
+    transform: translateX(-500px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0px);
+    opacity: 1; } }
+
+@keyframes iconAnimation {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%; }
+  10% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg); }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg); }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg); }
+  80% {
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg); }
+  90% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg); } }
+
 body {
   margin: 0;
   font-family: Lato, sans-serif; }
@@ -357,6 +392,8 @@ header .container {
     font-size: 32px; }
   .information__item {
     display: flex; }
+    .information__item:hover i {
+      animation: iconAnimation 0.7s cubic-bezier(0.455, 0.03, 0.515, 0.955) both; }
     .information__item > i {
       font-size: 36px;
       color: #f16d7f; }
@@ -590,6 +627,12 @@ header .container {
 .cart_items {
   margin-top: 70px;
   text-align: center; }
+  .cart_items tr:nth-child(1) {
+    animation: trAnimation 1s cubic-bezier(0, 1.86, 0.67, 1.51) 0s both; }
+  .cart_items tr:nth-child(2) {
+    animation: trAnimation 1s cubic-bezier(0, 1.86, 0.67, 1.51) 0.1s both; }
+  .cart_items tr:nth-child(3) {
+    animation: trAnimation 1s cubic-bezier(0, 1.86, 0.67, 1.51) 0.2s both; }
   .cart_items table {
     width: 100%;
     border-spacing: unset; }
